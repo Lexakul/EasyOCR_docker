@@ -2,5 +2,3 @@ services:
   easyocr:
     container_name: easyocr
     build: .
-    ports:
-      - "${port_api:-8000}:"
